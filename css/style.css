@@ -1,0 +1,17 @@
+.nav_box {
+    display: flex;
+    background-color: aqua;
+}
+.nav_box li{
+    display: inline-block;
+    border: 1px solid;
+    align-content: right;
+    background-color: white;
+}
+.nav_box li a{
+}
+
+
+.section_grid{
+    
+}
