@@ -8,7 +8,10 @@
     align-content: right;
     background-color: white;
 }
-.nav_box li a{
+.nav_box ul li a{
+
+    margin: 10px;
+    padding: 20px;
 }
 
 
