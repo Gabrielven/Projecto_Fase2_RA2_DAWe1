@@ -1,38 +1,45 @@
+body {
 
-body{
-    background-color: whitesmoke;
+    background-color: rgba(205, 207, 209, 1);
+
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    
-    
 }
-.nav_box{
-    
-}
-.nav_box ul{
+
+.nav_box {
+    width: 100%;
     position: fixed;
+    background-color: rgb(17, 17, 17);
+}
+
+.nav_box ul {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
-    background-color: rgb(243, 20, 20);
     margin: 0px;
     padding: 0px;
-    width: 100%;
-    overflow: hidden;
+    align-items: stretch;
 }
-.nav_box ul li{
-    float: right;
-}
-.nav_box ul li a{
-    border: 1px solid rebeccapurple;
-    display: flex;
-    justify-content: flex-start;
-    padding: 12px 24px;
+
+
+
+.nav_box ul li a {
+    color: white;
+    display: block;
     text-align: center;
-    background-color: rgb(26, 124, 211);
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
+    height: auto;
+    width: auto;
+    padding: 14px 16px;
+    margin: auto;
 }
-.nav_box ul li a:hover{
-    background-color: aliceblue;
+
+.nav_box ul li a:hover {
+    color: black;
+    background-color: rgba(205, 207, 209, 1);
 }
 
 .section_grid {
@@ -42,16 +49,17 @@ body{
     border: 1px solid black;
 }
 
-.section_grid article{
+.section_grid article {
     border: 1px solid blue;
     max-width: 100%;
     max-height: 100%;
-    overflow:auto;
+    overflow: auto;
 }
 
-.section_grid article h2{
+.section_grid article h2 {
     font-size: 1.2rem;
 }
-.section_grid article p{
-    font-size: 0.9rem ;
+
+.section_grid article p {
+    font-size: 0.9rem;
 }
