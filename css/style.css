@@ -41,6 +41,14 @@ body {
     color: black;
     background-color: rgba(205, 207, 209, 1);
 }
+.nav_box ul li a:active {
+    cursor:progress
+    background-color: rgba(205, 207, 209, 1);
+}
+
+.nav_box ul li a:visited {
+    background-color: rgba(205, 207, 209, 1);
+}
 
 .section_grid {
     display: grid;
