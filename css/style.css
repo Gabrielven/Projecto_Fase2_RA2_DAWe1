@@ -22,8 +22,12 @@ body {
     padding: 0px;
     align-items: stretch;
 }
-
-
+.lista_esdeveniments{
+    padding-top: 3rem;
+}
+table{
+    border: 1px solid black;
+}
 
 .nav_box ul li a {
     color: white;
@@ -42,13 +46,10 @@ body {
     background-color: rgba(205, 207, 209, 1);
 }
 .nav_box ul li a:active {
-    cursor:progress
     background-color: rgba(205, 207, 209, 1);
 }
 
-.nav_box ul li a:visited {
-    background-color: rgba(205, 207, 209, 1);
-}
+
 
 .section_grid {
     display: grid;
@@ -65,9 +66,12 @@ body {
 }
 
 .section_grid article h2 {
-    font-size: 1.2rem;
+    font-size: 4vmin;
+}
+.section_grid article img{
+    width: 30vmin; 
 }
 
 .section_grid article p {
-    font-size: 0.9rem;
+    font-size: 3vmin;
 }
