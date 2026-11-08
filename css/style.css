@@ -25,10 +25,29 @@ body {
 .lista_esdeveniments{
     padding-top: 3rem;
 }
-table{
+aside {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgba(205, 207, 209, 1);
+    max-width: 250px;
+    margin-top: 2rem;
+}
+.tabla_esdeveniment{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.tabla_esdeveniment td{
     border: 1px solid black;
 }
-
+main iframe{
+    display: block;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 1rem auto;
+}
 .nav_box ul li a {
     color: white;
     display: block;
@@ -55,7 +74,6 @@ table{
     display: grid;
     flex: auto;
     grid-template-areas: 'center center center ';
-    border: 1px solid black;
 }
 
 .section_grid article {
